@@ -1,0 +1,59 @@
+
+#day-image{
+    width: 100vw;
+    height: 100vh;
+background-image: url('https://images.pexels.com/photos/355508/pexels-photo-355508.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 100px;
+    color: #fdfbd3;
+    /* margin-top: 100px; */
+    
+}
+#night-image{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:#7f7f7f ; */
+    background-image: url('https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg?t=st=1738865679~exp=1738869279~hmac=6f742cca2b906cb0774d2c781bb4e960b0b95fa8db7c4b90e3235d384fd77581&w=1060');
+    background-color: aqua;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 100px;
+    color: #fdfbd3;
+
+
+}
+#time{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 100px;
+    left: 30rem;
+    right: 30rem;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+#sunIcon{
+    margin-top: 2em;
+    margin-left: -1em;
+    position: relative;
+    animation: movingIcon 5s linear infinite;
+}
+#moonIcon{
+    margin-top: 2em;
+    margin-left: -1em;
+    
+}
+@keyframes movingIcon {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
